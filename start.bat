@@ -1,2 +1,2 @@
-get_network_profiles.bat
-get_network_credentials.bat
+run get_network_profiles.bat
+run get_network_credentials.bat
