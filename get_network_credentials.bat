@@ -1,5 +1,5 @@
 set list[0]=RWQ78
-set list[1]='Verizon-SM-G955U-807E'
+set list[1]=Verizon-SM-G955U-807E
 
 rm netcredentials.txt
 
