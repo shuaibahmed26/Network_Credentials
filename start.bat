@@ -1,2 +1,2 @@
-echo get_network_profiles.bat
-echo get_network_credentials.bat
+start get_network_profiles.bat
+start get_network_credentials.bat
