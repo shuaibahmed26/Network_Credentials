@@ -1,0 +1,2 @@
+Netsh WLAN show profiles 
+
