@@ -7,7 +7,7 @@ Group policy profiles (read only)
 
 User profiles
 -------------
-    All User Profile     : attwifi
+    All User Profile     : attwifi \\offset = 27 char from left
     All User Profile     : TG_Public
     All User Profile     : Verizon-SM-G955U-807E
     All User Profile     : GG3
@@ -16,3 +16,8 @@ User profiles
     All User Profile     : MASON-SECURE
     All User Profile     : RWQ78
 
+
+for /f "delims=:" %% in ("!teststring!") do set substring=%%a
+    REM Do something with the substring - 
+    REM we just echo it for the purposes of demo
+    echo !substring!
