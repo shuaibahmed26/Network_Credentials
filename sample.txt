@@ -22,7 +22,7 @@ for /f "delims=:" %% in ("!teststring!") do set substring=%%a
     REM we just echo it for the purposes of demo
     echo !substring!
 ====================================
-    setLocal EnableDelayedExpansion
+   setLocal EnableDelayedExpansion
 >newFile.txt (
   for /f "tokens=* delims= " %%a in (variables.txt) do (
     set /a N+=1
@@ -31,8 +31,10 @@ for /f "delims=:" %% in ("!teststring!") do set substring=%%a
 )
 del variables.txt
 rename newFile.txt variables.txt
+=========================
 If the substitute text must, in turn, be derived from one of the lines, you could do something like this:
 
+==============================
 setLocal EnableDelayedExpansion
 >newFile.txt (
   for /f "tokens=* delims= " %%a in (variables.txt) do (
